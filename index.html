@@ -890,70 +890,83 @@
         for (let i = 0; i < cardImg.length; i++) {
 
             cardImg[i].addEventListener('click', function (e) {
-                cardHidden[i].style.width = '100%';
-                cardHidden[i].style.height = '100%';
-                cardHidden[i].style.top = '0';
-                cardHidden[i].style.left = '0';
-                cardHidden[i].style.fontSize = '24px';
-                cardHidden[i].style.color = 'black';
-                cardHidden[i].style.opacity = '0.7';
-            });
+
+                e.preventDefault();
+
+                if (cardHidden[i].style.width == '100%') {
+                    cardHidden[i].style.width = '0';
+                    cardHidden[i].style.height = '0';
+                    cardHidden[i].style.top = '50%';
+                    cardHidden[i].style.left = '50%';
+                    cardHidden[i].style.fontSize = '0px';
+                    cardHidden[i].style.color = 'white';
+                    cardHidden[i].style.opacity = '1';
+                } else {
+                    cardHidden[i].style.width = '100%';
+                    cardHidden[i].style.height = '100%';
+                    cardHidden[i].style.top = '0';
+                    cardHidden[i].style.left = '0';
+                    cardHidden[i].style.fontSize = '24px';
+                    cardHidden[i].style.color = 'black';
+                    cardHidden[i].style.opacity = '0.7';
+                }
+                });
 
 
 
-        }
+            }
 
 
 
         hum.addEventListener('click', function (e) {
-            e.preventDefault;
+                e.preventDefault;
 
-            humCard.style.display = 'flex';
-            hotCard.style.display = 'none';
-            pizCard.style.display = 'none';
-            drinkCard.style.display = 'none';
-            sokCard.style.display = 'none';
-        });
+                humCard.style.display = 'flex';
+                hotCard.style.display = 'none';
+                pizCard.style.display = 'none';
+                drinkCard.style.display = 'none';
+                sokCard.style.display = 'none';
+            });
 
-        hot.addEventListener('click', function (e) {
-            e.preventDefault;
+            hot.addEventListener('click', function (e) {
+                e.preventDefault;
 
-            humCard.style.display = 'none';
-            hotCard.style.display = 'flex';
-            pizCard.style.display = 'none';
-            drinkCard.style.display = 'none';
-            sokCard.style.display = 'none';
-        });
+                humCard.style.display = 'none';
+                hotCard.style.display = 'flex';
+                pizCard.style.display = 'none';
+                drinkCard.style.display = 'none';
+                sokCard.style.display = 'none';
+            });
 
-        piz.addEventListener('click', function (e) {
-            e.preventDefault;
+            piz.addEventListener('click', function (e) {
+                e.preventDefault;
 
-            humCard.style.display = 'none';
-            hotCard.style.display = 'none';
-            pizCard.style.display = 'flex';
-            drinkCard.style.display = 'none';
-            sokCard.style.display = 'none';
-        });
+                humCard.style.display = 'none';
+                hotCard.style.display = 'none';
+                pizCard.style.display = 'flex';
+                drinkCard.style.display = 'none';
+                sokCard.style.display = 'none';
+            });
 
-        drink.addEventListener('click', function (e) {
-            e.preventDefault;
+            drink.addEventListener('click', function (e) {
+                e.preventDefault;
 
-            humCard.style.display = 'none';
-            hotCard.style.display = 'none';
-            pizCard.style.display = 'none';
-            drinkCard.style.display = 'flex';
-            sokCard.style.display = 'none';
-        });
+                humCard.style.display = 'none';
+                hotCard.style.display = 'none';
+                pizCard.style.display = 'none';
+                drinkCard.style.display = 'flex';
+                sokCard.style.display = 'none';
+            });
 
-        sok.addEventListener('click', function (e) {
-            e.preventDefault;
+            sok.addEventListener('click', function (e) {
+                e.preventDefault;
 
-            humCard.style.display = 'none';
-            hotCard.style.display = 'none';
-            pizCard.style.display = 'none';
-            drinkCard.style.display = 'none';
-            sokCard.style.display = 'flex';
-        });
+                humCard.style.display = 'none';
+                hotCard.style.display = 'none';
+                pizCard.style.display = 'none';
+                drinkCard.style.display = 'none';
+                sokCard.style.display = 'flex';
+            });
 
 
 
