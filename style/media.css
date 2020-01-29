@@ -1,0 +1,417 @@
+@media (max-width:1100px) {
+    .header__h1 {
+        font-size: 66px;
+    }
+
+    .header__gov {
+        font-size: 30px;
+    }
+
+    .header__price {
+        font-size: 54px;
+        padding: 20px 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:990px) {
+
+    .nav__link {
+        padding: 30px 8px 25px;
+        font-size: 18px;
+    }
+
+    .nav__link1::after {
+        width: 20px;
+        margin-left: 4px;
+    }
+
+    .nav__logo {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    .footer__phone {
+        width: var(--col-5);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:900px) {
+
+    .nav__link {
+        padding: 25px 8px 18px;
+        font-size: 16px;
+    }
+
+    .header__h1 {
+        font-size: 60px;
+    }
+
+    .header__gov {
+        font-size: 26px;
+    }
+
+    .header__big-text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .header__price {
+        font-size: 40px;
+        padding: 15px 50px;
+    }
+
+    .card__image__par::before {
+        font-size: 20px;
+        padding: 10px 40px;
+    }
+
+    .hamburgers__link {
+        font-size: 18px;
+    }
+
+    .hamburgers__list {
+        padding: 40px 0 50px;
+    }
+
+    .recept__title {
+        font-size: 32px;
+
+    }
+
+    .boreder {
+        width: 150px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+
+    .recept_par {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .recept {
+        padding: 25px 0 50px;
+    }
+
+    .g-map__title {
+        font-size: 31px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .g-map iframe {
+        height: 350px;
+    }
+
+    .footer__nav__list {
+        width: var(--col-10);
+    }
+
+    .footer__nav__about {
+        width: var(--col-10);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:805px) {
+
+    .nav__block__list {
+        display: none;
+    }
+
+    .burger__menu {
+        display: flex;
+    }
+
+    .card__image__par:hover .card__image__hidden {
+        font-size: 18px;
+    }
+
+    .hamburgers__link {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:650px) {
+
+    .header__h1 {
+        font-size: 44px;
+    }
+
+    .card__cont__par {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .card__cont__tittle {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 19px;
+    }
+
+    .hamburgers__list {
+        width: var(--col-12);
+    }
+
+    .hamburgers__card {
+        width: var(--col-6);
+        margin-bottom: 30px;
+    }
+
+    .card__image__par:hover .card__image__hidden {
+        font-size: 16px;
+    }
+
+    .recept_par {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .g-map iframe {
+        height: 300px;
+    }
+
+    .g-map__title {
+        font-size: 26px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer__phone__par {
+        font-size: 18px;
+    }
+
+    .footer__nav__list {
+        width: var(--col-12);
+    }
+
+    .footer_link {
+        font-size: 16px;
+    }
+
+    .footer__about__par {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:470px) {
+    .header__h1 {
+        font-size: 36px;
+    }
+
+    .header__gov {
+        font-size: 22px;
+    }
+
+    .header__big-text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .header__price {
+        margin-top: 40px;
+    }
+
+    .boreder {
+        width: 120px;
+    }
+
+    .g-map iframe {
+        height: 200px;
+    }
+
+    .footer__phone {
+        width: var(--col-7);
+    }
+
+    .footer__list {
+        flex-wrap: wrap;
+    }
+
+    .footer__list li {
+        padding: 10px;
+        text-align: center;
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:380px) {
+    .burger {
+        width: 40px;
+        height: 40px;
+    }
+
+    .burger-line {
+        width: 25px;
+        top: 10px;
+    }
+
+    .burger-line2,
+    .burger-line3 {
+        top: 50%;
+    }
+
+    .burger-line4 {
+        top: 27px;
+    }
+    .nav-burger {
+        top: 100%;
+        left: 50%;
+        width: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: .5s;
+        font-size: 0;
+    }
+
+    #menue:checked~.nav-burger {
+        left: -40%;
+        top: 100%;
+        width: 60px;
+        font-size: 12px;
+    }
+
+
+    .hamburgers__card {
+        width: var(--col-10);
+        margin: 0 auto 30px;
+    }
+
+    .card__cont__par {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .card__cont__tittle {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .hamburgers__link {
+        font-size: 15px;
+    }
+
+    .card__image__par:hover .card__image__hidden {
+        font-size: 20px;
+    }
+
+    .hamburgers__list {
+        margin: auto;
+    }
+
+    .hamburgers__list li {
+        text-align: center;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .hamburgers__list li:last-child {
+        width: 100%;
+    }
+
+    .boreder {
+        width: 80px;
+    }
+
+    .footer__logo {
+        width: var(--col-12);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .footer__phone {
+        width: var(--col-12);
+        justify-content: center;
+    }
+}
