@@ -285,7 +285,7 @@ header {
 
 /* ------burger---------- */
 
-.burger__menu{
+.burger__menu {
     display: none;
 }
 
@@ -420,8 +420,18 @@ header {
 }
 
 
+
 .card__image__par {
     overflow: hidden;
+    
+}
+
+
+.card__image__par img {
+    border: 2px grey solid;
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
 }
 
 .card__image__par::before {
@@ -481,7 +491,6 @@ header {
     transform: translateY(100%);
 } */
 
-
 .card__cont__tittle {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -498,19 +507,19 @@ header {
     font-family: var(--Raleway-Regular);
 }
 
-.hot-card{
+.hot-card {
     display: none;
 }
 
-.piz-card{
+.piz-card {
     display: none;
 }
 
-.drink-card{
+.drink-card {
     display: none;
 }
 
-.sok-card{
+.sok-card {
     display: none;
 }
 
@@ -612,7 +621,7 @@ footer {
     color: var(--green-link);
 }
 
-.footer__phone__par:hover{
+.footer__phone__par:hover {
     cursor: default;
 }
 
